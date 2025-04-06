@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    font-family: Arial;
+    box-sizing: border-box; 
+	
+}
+body{
+    background-color: antiquewhite;
+}
+div{
+    background-color:white;
+    border-radius: 2.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+}
+.navbar{
+    height: 30px;
+    width: 100%;
+    /* background-color: black; */
+    color: white;
+    /* display: flex;
+justify-content: space-evenly;
+align-items: center;
+border-radius: 2%; */
+text-align: center;
+position: fixed;
+/* border-radius: 10%; */
+    
+}
+.navbar a{
+    color:black;
+    text-decoration: none;
+   /* opacity: 0; */
+    margin-top: 2px;
+    margin-left: 2rem;
+}
+.navbar a:hover{
+    color: blue;
+} 
+
+.home{
+   
+    background-image:url(./images/back2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 40%;
+    /* background-image: ; */
+    width: auto;
+    height: 50rem;
+    margin-bottom: 5rem;
+    padding-top: 26rem;
+    /* height:18rem ;
+    width: auto;  */
+    border: 2px solid black;
+   
+
+}
+   
+
+    
+    
+  
+
+h2{
+font-family: 'Times New Roman', Times, serif;
+font-size: 30px;
+}
+.con{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.name{
+    font-family: 'Times New Roman', Times, serif;
+font-size: 40px;
+}
+
+
+.profile-pic{
+   width: 15rem;
+   height: 15rem;;
+   border-radius: 50%;
+   border: 4px solid white;
+    background-image: url(./images/profile-pic.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 280px;
+    /* justify-content: center;
+    ;
+    margin-left: 50rem; */
+    margin-left: 5rem;
+    margin-bottom: 30px;
+    /* margin-bottom: 10rem; */
+
+}
+.para{
+    margin-top: 7rem;
+    margin-left: 5rem;
+    line-height: 1.5rem;
+    margin-bottom: 20rem;
+}
+.logo-container {
+    display: inline-block; 
+    margin-right: 20px; 
+    text-align: center; 
+}
+
+
+
+
+.about{
+    width: auto;
+   height: 12rem;
+    margin-top: 7rem;
+    border: 2px solid black;
+    line-height: 1.5rem;
+    text-align: center;
+   
+    
+}
+.about1{
+    margin-top:1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: left;
+    height: 8rem;
+}
+/* .about h2{
+   border-bottom: 1px solid black;
+   text-align: center;
+
+   
+} */
+.education{
+    width: auto;
+   height: 14rem;
+    margin-top: 6rem;
+    border: 2px solid black;
+    line-height: 1.5rem;
+    text-align: center;
+    
+}
+.college{
+    margin-top:1rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: left;
+}
+.skills{
+    display: flex;
+    width: auto;
+   height: 14rem;
+    margin-top: 6rem;
+    border: 2px solid black;
+    line-height: 1.5rem;
+    /* text-align: center; */
+}
+   
+.skills1{
+    margin-top:2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: left;
+    height: 8rem;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    margin-top: 1.5rem;
+
+}
+.accomplishment{
+    width: auto;
+height: 24rem;
+ margin-top: 6rem;
+ border: 2px solid black;
+ line-height: 1.5rem;
+ text-align: center;
+ 
+
+
+    text-align: left;
+
+
+}
+.accomplishment1{
+    margin-top:2rem;
+    margin-left: 6rem;
+    margin-right: 6rem;
+    text-align: left;
+    height: 8rem;
+}
+/* .html{
+    width: 20px;
+    height: auto;
+    background-color: black;
+    /* background-image: url(./images/html.jpg); */
+
+h2{
+    margin-bottom: 1rem;
+}
+.p1{
+    margin-top: 1rem;
+}
+ /* For mobilephones: */
+/* @media (max-width: 768px) {
+    .accomplishment{
+        height: 28rem;
+    }
+   
+    .about{
+        height: 14rem;
+    /* }
+} */
+@media(min-width:400px) and (max-width:500px){
+    .accomplishment{
+        height: 35rem;
+    }
+    .about{
+        height: 25rem;
+    }
+}
+@media(min-width:500px) and (max-width:600px){
+    .accomplishment{
+        height: 33rem;
+    }
+    .about{
+        height: 20rem;
+    }
+}
+@media(min-width:600px) and (max-width:700px){
+    .accomplishment{
+        height: 30rem;
+    }
+    .about{
+        height: 16rem;
+    }
+}
+@media(min-width:700px) and (max-width:800px){
+    .accomplishment{
+        height: 28rem;
+    }
+    .about{
+        height: 14rem;
+    }
+}
+@media(min-width:800px) and (max-width:900px){
+    .accomplishment{
+        height: 26rem;
+    }
+    .about{
+        height: 14rem;
+    }
+}
+@media(min-width:900px) and (max-width:1000px){
+    .accomplishment{
+        height: 30rem;
+    }
+    .about{
+        height: 16rem;
+    }
+} 
